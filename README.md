@@ -17,9 +17,9 @@
 | MISO          | SPI0_MISO (GPIO9, PIN 21) |
 | IRQ           | GPIO24 (PIN 18，可选) |
 
-下图给出了连接示意图：
+示例设备图片：
 
-![连接示意图](doc/device.jpg)
+<img src="doc/device.jpg" alt="Device" width="300" />
 
 所有示例脚本均假设按上表进行接线，如需使用其他引脚，请在代码中修改对应的 GPIO 号。
 
