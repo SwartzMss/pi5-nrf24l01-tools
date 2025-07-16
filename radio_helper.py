@@ -1,5 +1,5 @@
 import spidev
-import RPi.GPIO as GPIO
+import lgpio as GPIO
 from lib_nrf24 import NRF24
 
 PIPES = [b"1Node", b"2Node"]
