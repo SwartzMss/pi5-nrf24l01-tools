@@ -2,7 +2,7 @@
 """Simple NRF24L01 receiver example for Raspberry Pi 5."""
 import time
 import spidev
-import RPi.GPIO as GPIO
+import lgpio as GPIO
 from lib_nrf24 import NRF24
 
 

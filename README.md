@@ -29,7 +29,7 @@
 
 ```bash
 sudo apt-get install python3-pip
-pip3 install spidev RPi.GPIO lib_nrf24
+pip3 install spidev lgpio lib_nrf24
 ```
 
 直接运行发送端或接收端脚本：
