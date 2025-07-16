@@ -40,10 +40,5 @@ python3 send.py
 python3 receive.py
 ```
 
-如果想同时查看发送与接收逻辑的封装，可以运行综合示例 `main.py`：
-
-```bash
-python3 example/main.py
-```
 
 脚本将在终端打印发送或接收到的消息，便于测试 NRF24L01 的通信。
